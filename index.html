@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perdón</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Perdón</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Lo siento mucho</h1>
-        <p id="apologyMessage">Quiero pedirte perdón por haberte hecho enojar. Mi intención nunca fue herirte y lamento profundamente lo sucedido.</p>
-        <div class="buttons">
-            <button id="yesButton" class="yes">Sí</button>
-            <button id="noButton" class="no">No</button>
-        </div>
-        <div id="message"></div>
+  <div class="container">
+    <h1>¿Me perdonas?</h1>
+    <div class="options">
+      <button id="btn-yes" class="green-button">Sí</button>
+      <button id="btn-no" class="red-button">No</button>
     </div>
-    <script src="script.js"></script>
+    <div id="message-box">
+      <p>Presiona un botón para ver el mensaje.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
