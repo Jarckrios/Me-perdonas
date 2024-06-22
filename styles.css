@@ -5,6 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  background-color: #f0f0f0; /* Color de fondo */
 }
 
 .container {
@@ -40,4 +41,6 @@ button {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #fff; /* Color de fondo del mensaje */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
 }
